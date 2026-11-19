@@ -69,7 +69,7 @@ The table below lists the premier SaaS and hosted voice AI platforms, including 
 
 Every major active open-source project across real-time voice agent frameworks, full-duplex speech-to-speech models, local neural ASR/TTS engines, voice activity detection (VAD), and live dictation tools.
 
-> **Sorted Descending by GitHub Stars_Count** (click the Stars_Badge beside each project to visit its stargazers page):
+> **Sorted Descending by GitHub_Stars_Count** (click the Stars_Badge beside each project to visit its stargazers page):
 
 1. **[Whisper (openai/whisper)](https://github.com/openai/whisper)** [![GitHub_Stars](https://img.shields.io/github/stars/openai/whisper?style=social&color=white)](https://github.com/openai/whisper/stargazers)  
    Robust Speech Recognition via Large-Scale Weak Supervision; industry-standard general-purpose speech transcription foundation model.
