@@ -1,28 +1,35 @@
-<<<<<<< HEAD
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" preserveAspectRatio="xMidYMid meet">
   <defs>
-    <!-- Background Gradients -->
+    <!-- Background Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070913" />
-      <stop offset="50%" stop-color="#0d1326" />
-      <stop offset="100%" stop-color="#080c1a" />
+      <stop offset="50%" stop-color="#0d1424" />
+      <stop offset="100%" stop-color="#060911" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="40%" stop-color="#818cf8" />
+      <stop offset="80%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f43f5e" />
     </linearGradient>
 
     <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="35%" stop-color="#818cf8" />
-      <stop offset="70%" stop-color="#c084fc" />
-      <stop offset="100%" stop-color="#f43f5e" />
-    </linearGradient>
-
-    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.0" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.6" />
     </linearGradient>
 
     <!-- Filters for Glow & Shadows -->
@@ -38,362 +45,149 @@
 
   <style>
     @keyframes pulseWave1 {
-      0%, 100% { height: 16px; y: 162px; opacity: 0.45; }
-      50% { height: 74px; y: 133px; opacity: 0.95; }
+      0%, 100% { height: 16px; y: 232px; opacity: 0.45; }
+      50% { height: 74px; y: 203px; opacity: 0.95; }
     }
     @keyframes pulseWave2 {
-      0%, 100% { height: 28px; y: 156px; opacity: 0.55; }
-      50% { height: 104px; y: 118px; opacity: 1; }
+      0%, 100% { height: 28px; y: 226px; opacity: 0.55; }
+      50% { height: 95px; y: 192px; opacity: 1; }
     }
     @keyframes pulseWave3 {
-      0%, 100% { height: 50px; y: 145px; opacity: 0.7; }
-      50% { height: 136px; y: 102px; opacity: 1; }
-    }
-    @keyframes floatParticle {
-      0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
-      50% { transform: translateY(-15px) translateX(10px); opacity: 0.8; }
-      100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      0%, 100% { height: 45px; y: 217px; opacity: 0.7; }
+      50% { height: 115px; y: 182px; opacity: 1; }
     }
     @keyframes sweepGlow {
-      0% { transform: translateX(-100px); opacity: 0.2; }
-      50% { transform: translateX(100px); opacity: 0.45; }
-      100% { transform: translateX(-100px); opacity: 0.2; }
+      0% { transform: translateX(-40px); opacity: 0.2; }
+      50% { transform: translateX(40px); opacity: 0.4; }
+      100% { transform: translateX(-40px); opacity: 0.2; }
+    }
+    @keyframes waveMove {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-400px); }
     }
 
     .wave-bar-1 { animation: pulseWave1 2.2s ease-in-out infinite; }
     .wave-bar-2 { animation: pulseWave2 1.8s ease-in-out infinite; }
     .wave-bar-3 { animation: pulseWave3 2.5s ease-in-out infinite; }
-    .floating-dot { animation: floatParticle 4s ease-in-out infinite; }
     .ambient-glow { animation: sweepGlow 7s ease-in-out infinite; }
+    .wave-bg { animation: waveMove 12s linear infinite; }
 
     .title-text {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       font-weight: 800;
-      font-size: 38px;
+      font-size: 40px;
       letter-spacing: -0.5px;
     }
     .subtitle-text {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 17px;
       letter-spacing: 0.2px;
-      fill: #94a3b8;
+      fill: #cbd5e1;
     }
     .badge-text {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       font-weight: 600;
       font-size: 12px;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
+      letter-spacing: 0.4px;
     }
   </style>
 
   <!-- Background Base -->
-  <rect width="1200" height="340" rx="18" fill="url(#bgGrad)" />
-  <rect width="1198" height="338" x="1" y="1" rx="17" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
 
-  <!-- Ambient Dynamic Glow (Background) -->
+  <!-- Ambient Dynamic Glow (Strictly in Background) -->
   <g class="ambient-glow" filter="url(#subtleGlow)">
-    <circle cx="280" cy="80" r="140" fill="#38bdf8" opacity="0.12" />
-    <circle cx="920" cy="240" r="160" fill="#c084fc" opacity="0.1" />
+    <circle cx="240" cy="90" r="130" fill="#38bdf8" opacity="0.12" />
+    <circle cx="980" cy="270" r="150" fill="#c084fc" opacity="0.12" />
   </g>
 
-  <!-- Technical Grid Pattern Background -->
-  <g opacity="0.15" stroke="#475569" stroke-width="0.75" stroke-dasharray="3,4">
-    <line x1="80" y1="0" x2="80" y2="340" />
-    <line x1="280" y1="0" x2="280" y2="340" />
-    <line x1="600" y1="0" x2="600" y2="340" />
-    <line x1="920" y1="0" x2="920" y2="340" />
-    <line x1="1120" y1="0" x2="1120" y2="340" />
-    <line x1="0" y1="70" x2="1200" y2="70" />
-    <line x1="0" y1="170" x2="1200" y2="170" />
-    <line x1="0" y1="270" x2="1200" y2="270" />
+  <!-- Animated Background Soundwaves (Background accent) -->
+  <g opacity="0.15">
+    <path class="wave-bg" fill="none" stroke="#38bdf8" stroke-width="2"
+      d="M 0 310 Q 50 270, 100 310 T 200 310 T 300 310 T 400 310 T 500 310 T 600 310 T 700 310 T 800 310 T 900 310 T 1000 310 T 1100 310 T 1200 310 T 1300 310 T 1400 310 T 1500 310 T 1600 310" />
+    <path class="wave-bg" fill="none" stroke="#818cf8" stroke-width="1.8" style="animation-duration: 9s;"
+      d="M 0 325 Q 40 295, 80 325 T 160 325 T 240 325 T 320 325 T 400 325 T 480 325 T 560 325 T 640 325 T 720 325 T 800 325 T 880 325 T 960 325 T 1040 325 T 1120 325 T 1200 325 T 1280 325 T 1360 325 T 1440 325 T 1520 325 T 1600 325" />
   </g>
 
-  <!-- Dynamic Equalizer / Speech Waveform (Background / Midground Accent) -->
-  <g id="speechWaveform" opacity="0.75">
-    <!-- Symmetric audio spectrum centered around 600 -->
-    <rect class="wave-bar-1" x="430" y="162" width="6" height="16" rx="3" fill="#38bdf8" />
-    <rect class="wave-bar-2" x="444" y="156" width="6" height="28" rx="3" fill="#38bdf8" />
-    <rect class="wave-bar-3" x="458" y="145" width="6" height="50" rx="3" fill="#38bdf8" />
-    <rect class="wave-bar-2" x="472" y="156" width="6" height="28" rx="3" fill="#60a5fa" />
-    <rect class="wave-bar-1" x="486" y="162" width="6" height="16" rx="3" fill="#60a5fa" />
-    <rect class="wave-bar-3" x="500" y="145" width="6" height="50" rx="3" fill="#818cf8" />
-    <rect class="wave-bar-2" x="514" y="156" width="6" height="28" rx="3" fill="#818cf8" />
-    <rect class="wave-bar-3" x="528" y="145" width="6" height="50" rx="3" fill="#a78bfa" />
-    <rect class="wave-bar-1" x="542" y="162" width="6" height="16" rx="3" fill="#a78bfa" />
-    <rect class="wave-bar-2" x="556" y="156" width="6" height="28" rx="3" fill="#c084fc" />
-    <rect class="wave-bar-3" x="570" y="145" width="6" height="50" rx="3" fill="#c084fc" />
-    
-    <!-- Central Cluster -->
-    <rect class="wave-bar-2" x="584" y="156" width="6" height="28" rx="3" fill="#e879f9" />
-    <rect class="wave-bar-3" x="598" y="145" width="6" height="50" rx="3" fill="#f43f5e" />
-    <rect class="wave-bar-2" x="612" y="156" width="6" height="28" rx="3" fill="#f43f5e" />
-    
-    <!-- Right side -->
-    <rect class="wave-bar-1" x="626" y="162" width="6" height="16" rx="3" fill="#e879f9" />
-    <rect class="wave-bar-3" x="640" y="145" width="6" height="50" rx="3" fill="#c084fc" />
-    <rect class="wave-bar-2" x="654" y="156" width="6" height="28" rx="3" fill="#c084fc" />
-    <rect class="wave-bar-3" x="668" y="145" width="6" height="50" rx="3" fill="#a78bfa" />
-    <rect class="wave-bar-1" x="682" y="162" width="6" height="16" rx="3" fill="#818cf8" />
-    <rect class="wave-bar-2" x="696" y="156" width="6" height="28" rx="3" fill="#818cf8" />
-    <rect class="wave-bar-3" x="710" y="145" width="6" height="50" rx="3" fill="#60a5fa" />
-    <rect class="wave-bar-1" x="724" y="162" width="6" height="16" rx="3" fill="#60a5fa" />
-    <rect class="wave-bar-2" x="738" y="156" width="6" height="28" rx="3" fill="#38bdf8" />
-    <rect class="wave-bar-1" x="752" y="162" width="6" height="16" rx="3" fill="#38bdf8" />
+  <!-- Dynamic Equalizer Bars in the Lower-Right Background Area -->
+  <g id="equalizer" opacity="0.65">
+    <rect class="wave-bar-1" x="900" y="232" width="6" height="16" rx="3" fill="#38bdf8" />
+    <rect class="wave-bar-2" x="914" y="226" width="6" height="28" rx="3" fill="#38bdf8" />
+    <rect class="wave-bar-3" x="928" y="217" width="6" height="45" rx="3" fill="#60a5fa" />
+    <rect class="wave-bar-2" x="942" y="226" width="6" height="28" rx="3" fill="#60a5fa" />
+    <rect class="wave-bar-1" x="956" y="232" width="6" height="16" rx="3" fill="#818cf8" />
+    <rect class="wave-bar-3" x="970" y="217" width="6" height="45" rx="3" fill="#818cf8" />
+    <rect class="wave-bar-2" x="984" y="226" width="6" height="28" rx="3" fill="#a78bfa" />
+    <rect class="wave-bar-3" x="998" y="217" width="6" height="45" rx="3" fill="#c084fc" />
+    <rect class="wave-bar-2" x="1012" y="226" width="6" height="28" rx="3" fill="#c084fc" />
+    <rect class="wave-bar-1" x="1026" y="232" width="6" height="16" rx="3" fill="#e879f9" />
+    <rect class="wave-bar-3" x="1040" y="217" width="6" height="45" rx="3" fill="#f43f5e" />
+    <rect class="wave-bar-2" x="1054" y="226" width="6" height="28" rx="3" fill="#f43f5e" />
+    <rect class="wave-bar-1" x="1068" y="232" width="6" height="16" rx="3" fill="#e879f9" />
+    <rect class="wave-bar-2" x="1082" y="226" width="6" height="28" rx="3" fill="#818cf8" />
+    <rect class="wave-bar-3" x="1096" y="217" width="6" height="45" rx="3" fill="#38bdf8" />
   </g>
 
-  <!-- Ambient Dynamic Floating Points (Particles) -->
-  <circle class="floating-dot" cx="210" cy="110" r="3.5" fill="#38bdf8" style="animation-delay: 0.3s;" />
-  <circle class="floating-dot" cx="340" cy="230" r="2.5" fill="#818cf8" style="animation-delay: 1.1s;" />
-  <circle class="floating-dot" cx="890" cy="115" r="3" fill="#c084fc" style="animation-delay: 0.7s;" />
-  <circle class="floating-dot" cx="1020" cy="220" r="4" fill="#f43f5e" style="animation-delay: 1.8s;" />
-  <circle class="floating-dot" cx="150" cy="260" r="2" fill="#38bdf8" style="animation-delay: 2.3s;" />
-
-  <!-- Content Container (Card Frame) -->
-  <g id="foregroundContent">
-    <!-- Top Category Tag -->
-    <g transform="translate(600, 52)">
-      <rect x="-135" y="-14" width="270" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#pillShadow)" />
-      <circle cx="-116" cy="0" r="4" fill="#38bdf8">
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
-      </circle>
-      <text class="badge-text" x="-104" y="4" fill="#38bdf8">Neural Voice &amp; TTS Arena 2026</text>
-    </g>
-
-    <!-- Main Title (Gradient Foreground) -->
-    <text class="title-text" x="600" y="118" text-anchor="middle" fill="#ffffff" filter="url(#pillShadow)">
-      Awesome Voice AI &amp; Text-to-Speech
-    </text>
-
-    <!-- Subtitle (Clear Foreground Hierarchy) -->
-    <text class="subtitle-text" x="600" y="152" text-anchor="middle">
-      Benchmarking Foundation Models • Zero-Shot Cloning • Real-Time Voice Agents
-    </text>
-
-    <!-- Feature Pills / Badges Bar (Bottom Foreground) -->
-    <g transform="translate(600, 268)">
-      <!-- Pill 1: ELO TTS Arena -->
-      <g transform="translate(-390, 0)">
-        <rect x="-80" y="-16" width="160" height="32" rx="16" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" filter="url(#pillShadow)" />
-        <text class="badge-text" x="0" y="4" text-anchor="middle" fill="#e0f2fe">🏆 TTS ARENA</text>
-      </g>
-
-      <!-- Pill 2: Voice Cloning -->
-      <g transform="translate(-195, 0)">
-        <rect x="-80" y="-16" width="160" height="32" rx="16" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" filter="url(#pillShadow)" />
-        <text class="badge-text" x="0" y="4" text-anchor="middle" fill="#e0e7ff">🎙️ ZERO-SHOT</text>
-      </g>
-
-      <!-- Pill 3: Evaluation Metrics -->
+  <!-- Foreground Content Block (High Contrast, Guaranteed Never Hidden) -->
+  <g id="foreground-content" transform="translate(60, 42)">
+    <!-- Top Category Pill Badges -->
+    <g>
+      <!-- Pill 1 -->
       <g transform="translate(0, 0)">
-        <rect x="-80" y="-16" width="160" height="32" rx="16" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.6" filter="url(#pillShadow)" />
-        <text class="badge-text" x="0" y="4" text-anchor="middle" fill="#f3e8ff">📊 MOS &amp; WER</text>
+        <rect x="0" y="0" width="180" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+        <circle cx="14" cy="14" r="4.5" fill="#38bdf8" />
+        <text x="26" y="19" class="badge-text" fill="#e0f2fe">VOICE AI DIRECTORY</text>
       </g>
-
-      <!-- Pill 4: Sub-90ms Streaming -->
-      <g transform="translate(195, 0)">
-        <rect x="-80" y="-16" width="160" height="32" rx="16" fill="url(#cardGrad)" stroke="#ec4899" stroke-width="1.2" stroke-opacity="0.6" filter="url(#pillShadow)" />
-        <text class="badge-text" x="0" y="4" text-anchor="middle" fill="#fce7f3">⚡ &lt;90ms LATENCY</text>
+      <!-- Pill 2 -->
+      <g transform="translate(192, 0)">
+        <rect x="0" y="0" width="190" height="28" rx="14" fill="#1e293b" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" />
+        <circle cx="14" cy="14" r="4.5" fill="#818cf8" />
+        <text x="26" y="19" class="badge-text" fill="#ede9fe">CONVERSATIONAL AUDIO</text>
       </g>
-
-      <!-- Pill 5: Open-Source Models -->
-      <g transform="translate(390, 0)">
-        <rect x="-80" y="-16" width="160" height="32" rx="16" fill="url(#cardGrad)" stroke="#10b981" stroke-width="1.2" stroke-opacity="0.6" filter="url(#pillShadow)" />
-        <text class="badge-text" x="0" y="4" text-anchor="middle" fill="#d1fae5">🔓 OPEN WEIGHTS</text>
+      <!-- Pill 3 -->
+      <g transform="translate(394, 0)">
+        <rect x="0" y="0" width="168" height="28" rx="14" fill="#1e293b" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.6" />
+        <circle cx="14" cy="14" r="4.5" fill="#34d399" />
+        <text x="26" y="19" class="badge-text" fill="#d1fae5">SAAS &amp; OPEN-SOURCE</text>
       </g>
     </g>
-  </g>
-=======
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" preserveAspectRatio="xMidYMid meet">
-  <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a071b"/>
-      <stop offset="45%" stop-color="#120e2e"/>
-      <stop offset="100%" stop-color="#180b33"/>
-    </linearGradient>
 
-    <!-- Glowing Accent Gradients -->
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366f1"/>
-      <stop offset="50%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#ec4899"/>
-    </linearGradient>
-
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2"/>
-    </linearGradient>
-
-    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.6"/>
-    </linearGradient>
-
-    <!-- Radial Glows -->
-    <radialGradient id="glowPurple" cx="15%" cy="30%" r="50%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#0a071b" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="glowPink" cx="85%" cy="70%" r="50%">
-      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#0a071b" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Filter for neon text glow -->
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <style>
-      .sound-bar {
-        transform-origin: bottom;
-        animation: soundPulse 1.8s ease-in-out infinite alternate;
-      }
-      @keyframes soundPulse {
-        0% { transform: scaleY(0.25); }
-        50% { transform: scaleY(1); }
-        100% { transform: scaleY(0.4); }
-      }
-      .wave-float {
-        animation: waveFlow 12s ease-in-out infinite alternate;
-      }
-      @keyframes waveFlow {
-        0% { transform: translateY(0px) scaleY(1); }
-        100% { transform: translateY(-16px) scaleY(1.08); }
-      }
-      .badge-glow {
-        animation: badgePulse 3s ease-in-out infinite;
-      }
-      @keyframes badgePulse {
-        0%, 100% { opacity: 0.9; }
-        50% { opacity: 1; filter: drop-shadow(0 0 10px rgba(168,85,247,0.6)); }
-      }
-    </style>
-  </defs>
-
-  <!-- Background Base -->
-  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)"/>
-  <rect width="1200" height="360" rx="16" fill="url(#glowPurple)"/>
-  <rect width="1200" height="360" rx="16" fill="url(#glowPink)"/>
-
-  <!-- Subtle Tech Grid Lines -->
-  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
-    <line x1="0" y1="60" x2="1200" y2="60"/>
-    <line x1="0" y1="120" x2="1200" y2="120"/>
-    <line x1="0" y1="180" x2="1200" y2="180"/>
-    <line x1="0" y1="240" x2="1200" y2="240"/>
-    <line x1="0" y1="300" x2="1200" y2="300"/>
-    <line x1="200" y1="0" x2="200" y2="360"/>
-    <line x1="400" y1="0" x2="400" y2="360"/>
-    <line x1="600" y1="0" x2="600" y2="360"/>
-    <line x1="800" y1="0" x2="800" y2="360"/>
-    <line x1="1000" y1="0" x2="1000" y2="360"/>
-  </g>
-
-  <!-- Dynamic / Animated Audio Waveforms (Strictly Background Behind Text) -->
-  <g class="wave-float" opacity="0.35">
-    <path d="M 0,270 Q 150,210 300,270 T 600,270 T 900,270 T 1200,270 L 1200,360 L 0,360 Z" fill="url(#waveGrad1)"/>
-  </g>
-  <g class="wave-float" style="animation-delay: -6s; opacity: 0.25;">
-    <path d="M 0,290 Q 180,240 360,290 T 720,290 T 1080,290 T 1200,290 L 1200,360 L 0,360 Z" fill="url(#cyanGrad)"/>
-  </g>
-
-  <!-- Animated Sound Equalizer Bars (Positioned safely across lower third) -->
-  <g transform="translate(60, 310)" fill="url(#accentGrad)" opacity="0.6">
-    <rect class="sound-bar" x="0" y="-80" width="5" height="80" rx="2.5" style="animation-delay: 0.1s;"/>
-    <rect class="sound-bar" x="12" y="-95" width="5" height="95" rx="2.5" style="animation-delay: 0.4s;"/>
-    <rect class="sound-bar" x="24" y="-60" width="5" height="60" rx="2.5" style="animation-delay: 0.2s;"/>
-    <rect class="sound-bar" x="36" y="-110" width="5" height="110" rx="2.5" style="animation-delay: 0.7s;"/>
-    <rect class="sound-bar" x="48" y="-75" width="5" height="75" rx="2.5" style="animation-delay: 0.3s;"/>
-    <rect class="sound-bar" x="60" y="-125" width="5" height="125" rx="2.5" style="animation-delay: 0.9s;"/>
-    <rect class="sound-bar" x="72" y="-90" width="5" height="90" rx="2.5" style="animation-delay: 0.5s;"/>
-    <rect class="sound-bar" x="84" y="-50" width="5" height="50" rx="2.5" style="animation-delay: 0.2s;"/>
-    <rect class="sound-bar" x="96" y="-105" width="5" height="105" rx="2.5" style="animation-delay: 0.8s;"/>
-    <rect class="sound-bar" x="108" y="-70" width="5" height="70" rx="2.5" style="animation-delay: 0.4s;"/>
-  </g>
-
-  <g transform="translate(1020, 310)" fill="url(#accentGrad)" opacity="0.6">
-    <rect class="sound-bar" x="0" y="-70" width="5" height="70" rx="2.5" style="animation-delay: 0.5s;"/>
-    <rect class="sound-bar" x="12" y="-115" width="5" height="115" rx="2.5" style="animation-delay: 0.2s;"/>
-    <rect class="sound-bar" x="24" y="-80" width="5" height="80" rx="2.5" style="animation-delay: 0.8s;"/>
-    <rect class="sound-bar" x="36" y="-125" width="5" height="125" rx="2.5" style="animation-delay: 0.3s;"/>
-    <rect class="sound-bar" x="48" y="-60" width="5" height="60" rx="2.5" style="animation-delay: 0.7s;"/>
-    <rect class="sound-bar" x="60" y="-100" width="5" height="100" rx="2.5" style="animation-delay: 0.1s;"/>
-    <rect class="sound-bar" x="72" y="-120" width="5" height="120" rx="2.5" style="animation-delay: 0.6s;"/>
-    <rect class="sound-bar" x="84" y="-85" width="5" height="85" rx="2.5" style="animation-delay: 0.4s;"/>
-    <rect class="sound-bar" x="96" y="-65" width="5" height="65" rx="2.5" style="animation-delay: 0.9s;"/>
-    <rect class="sound-bar" x="108" y="-95" width="5" height="95" rx="2.5" style="animation-delay: 0.2s;"/>
-  </g>
-
-  <!-- Foreground Content Block (High Contrast, Never Hidden) -->
-  <g id="foreground-text">
-    <!-- Top Pill Badges -->
-    <g transform="translate(60, 42)">
-      <rect x="0" y="0" width="186" height="28" rx="14" fill="#6366f1" fill-opacity="0.18" stroke="#818cf8" stroke-width="1.2"/>
-      <circle cx="16" cy="14" r="4.5" fill="#38bdf8"/>
-      <text x="28" y="19" fill="#e0e7ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">CURATED DIRECTORY</text>
-    </g>
-
-    <g transform="translate(258, 42)">
-      <rect x="0" y="0" width="176" height="28" rx="14" fill="#a855f7" fill-opacity="0.18" stroke="#c084fc" stroke-width="1.2"/>
-      <circle cx="16" cy="14" r="4.5" fill="#f472b6"/>
-      <text x="28" y="19" fill="#f3e8ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">TTS &amp; VOICE CLONING</text>
-    </g>
-
-    <g transform="translate(446, 42)">
-      <rect x="0" y="0" width="144" height="28" rx="14" fill="#ec4899" fill-opacity="0.18" stroke="#f472b6" stroke-width="1.2"/>
-      <circle cx="16" cy="14" r="4.5" fill="#34d399"/>
-      <text x="28" y="19" fill="#fce7f3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0.5">OPEN-SOURCE &amp; SAAS</text>
-    </g>
-
-    <!-- Main Title -->
-    <text x="60" y="132" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.8">
-      Awesome Voice AI &amp; Speech Synthesis
-    </text>
+    <!-- Main Title (Clean Foreground) -->
+    <text x="0" y="92" class="title-text" fill="url(#titleGrad)">Awesome Voice AI &amp; Conversational Audio</text>
 
     <!-- Subtitle / Tagline -->
-    <text x="60" y="174" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="500">
-      Neural Text-to-Speech (TTS) • Zero-Shot Voice Cloning • Conversational Voice Agents • Audio Studios
+    <text x="0" y="134" class="subtitle-text">Full-Duplex Speech-to-Speech • Real-Time Voice Agents • Sub-200ms STT/TTS Pipelines</text>
+
+    <text x="0" y="166" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400">
+      Curated landscape of category-leading enterprise platforms, low-latency audio frameworks, and open-weight models.
     </text>
 
-    <text x="60" y="206" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400">
-      Comprehensive curated collection of market-leading commercial platforms and top-starred open-weight models.
-    </text>
-
-    <!-- Visual Feature Badges Row -->
-    <g transform="translate(60, 240)">
-      <!-- Badge 1 -->
+    <!-- Bottom Feature Pills Row -->
+    <g transform="translate(0, 206)">
+      <!-- Feature 1 -->
       <g transform="translate(0, 0)">
-        <rect width="180" height="34" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1.2"/>
-        <text x="14" y="22" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600">🎙️ Zero-Shot Cloning</text>
+        <rect width="175" height="34" rx="8" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" filter="url(#pillShadow)" />
+        <text x="14" y="22" class="badge-text" fill="#bae6fd">⚡ Sub-200ms Latency</text>
       </g>
-      <!-- Badge 2 -->
-      <g transform="translate(192, 0)">
-        <rect width="180" height="34" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1.2"/>
-        <text x="14" y="22" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600">⚡ Sub-100ms Streaming</text>
+      <!-- Feature 2 -->
+      <g transform="translate(187, 0)">
+        <rect width="180" height="34" rx="8" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" filter="url(#pillShadow)" />
+        <text x="14" y="22" class="badge-text" fill="#c7d2fe">🎙️ Full-Duplex S2S</text>
       </g>
-      <!-- Badge 3 -->
-      <g transform="translate(384, 0)">
-        <rect width="180" height="34" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1.2"/>
-        <text x="14" y="22" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600">🌐 100+ Languages</text>
+      <!-- Feature 3 -->
+      <g transform="translate(379, 0)">
+        <rect width="185" height="34" rx="8" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6" filter="url(#pillShadow)" />
+        <text x="14" y="22" class="badge-text" fill="#e9d5ff">🌐 Real-Time WebRTC</text>
       </g>
-      <!-- Badge 4 -->
+      <!-- Feature 4 -->
       <g transform="translate(576, 0)">
-        <rect width="180" height="34" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1.2"/>
-        <text x="14" y="22" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600">💻 Local Edge / ONNX</text>
+        <rect width="175" height="34" rx="8" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.2" stroke-opacity="0.6" filter="url(#pillShadow)" />
+        <text x="14" y="22" class="badge-text" fill="#a7f3d0">🚀 Local &amp; Cloud Ready</text>
       </g>
     </g>
   </g>
 
   <!-- Border Outline -->
-  <rect x="0.5" y="0.5" width="1199" height="359" rx="16" fill="none" stroke="#6366f1" stroke-opacity="0.3" stroke-width="1"/>
->>>>>>> 7c2d06d (docs: enrich README with SaaS pricing table, market dynamics, ranked open-source TTS models, and animated banner)
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="16" fill="none" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1" />
 </svg>
