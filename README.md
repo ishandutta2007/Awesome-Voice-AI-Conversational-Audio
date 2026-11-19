@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Voice-AI-Conversational-Audio/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Voice-AI-Conversational-Audio?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Voice-AI-Conversational-Audio/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Voice-AI-Conversational-Audio?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Voice-AI-Conversational-Audio/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Voice-AI-Conversational-Audio?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Voice-AI-Conversational-Audio/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -69,99 +69,99 @@ The table below lists the premier SaaS and hosted voice AI platforms, including 
 
 Every major active open-source project across real-time voice agent frameworks, full-duplex speech-to-speech models, local neural ASR/TTS engines, voice activity detection (VAD), and live dictation tools.
 
-> **Sorted Descending by GitHub Star Count** (click the star badge beside each project to visit its stargazers page):
+> **Sorted Descending by GitHub Stars_Count** (click the Stars_Badge beside each project to visit its stargazers page):
 
-1. **[Whisper (openai/whisper)](https://github.com/openai/whisper)** [![GitHub stars](https://img.shields.io/github/stars/openai/whisper?style=social&color=white)](https://github.com/openai/whisper/stargazers)  
+1. **[Whisper (openai/whisper)](https://github.com/openai/whisper)** [![GitHub_Stars](https://img.shields.io/github/stars/openai/whisper?style=social&color=white)](https://github.com/openai/whisper/stargazers)  
    Robust Speech Recognition via Large-Scale Weak Supervision; industry-standard general-purpose speech transcription foundation model.
 
-2. **[Coqui TTS (coqui-ai/TTS)](https://github.com/coqui-ai/TTS)** [![GitHub stars](https://img.shields.io/github/stars/coqui-ai/TTS?style=social&color=white)](https://github.com/coqui-ai/TTS/stargazers)  
+2. **[Coqui TTS (coqui-ai/TTS)](https://github.com/coqui-ai/TTS)** [![GitHub_Stars](https://img.shields.io/github/stars/coqui-ai/TTS?style=social&color=white)](https://github.com/coqui-ai/TTS/stargazers)  
    Deep learning toolkit for Text-to-Speech synthesis by Coqui, highly customizable with 40+ languages and voice cloning support.
 
-3. **[ChatTTS (2noise/ChatTTS)](https://github.com/2noise/ChatTTS)** [![GitHub stars](https://img.shields.io/github/stars/2noise/ChatTTS?style=social&color=white)](https://github.com/2noise/ChatTTS/stargazers)  
+3. **[ChatTTS (2noise/ChatTTS)](https://github.com/2noise/ChatTTS)** [![GitHub_Stars](https://img.shields.io/github/stars/2noise/ChatTTS?style=social&color=white)](https://github.com/2noise/ChatTTS/stargazers)  
    Generative text-to-speech model specifically designed for conversational dialogue and multi-turn scenarios with prosody and nuance control.
 
-4. **[Fish Speech (fishaudio/fish-speech)](https://github.com/fishaudio/fish-speech)** [![GitHub stars](https://img.shields.io/github/stars/fishaudio/fish-speech?style=social&color=white)](https://github.com/fishaudio/fish-speech/stargazers)  
+4. **[Fish Speech (fishaudio/fish-speech)](https://github.com/fishaudio/fish-speech)** [![GitHub_Stars](https://img.shields.io/github/stars/fishaudio/fish-speech?style=social&color=white)](https://github.com/fishaudio/fish-speech/stargazers)  
    High-speed open-source dual-autoregressive Transformer TTS architecture supporting low-latency streaming and zero-shot cross-lingual voice cloning.
 
-5. **[Chatterbox (resemble-ai/chatterbox)](https://github.com/resemble-ai/chatterbox)** [![GitHub stars](https://img.shields.io/github/stars/resemble-ai/chatterbox?style=social&color=white)](https://github.com/resemble-ai/chatterbox/stargazers)  
+5. **[Chatterbox (resemble-ai/chatterbox)](https://github.com/resemble-ai/chatterbox)** [![GitHub_Stars](https://img.shields.io/github/stars/resemble-ai/chatterbox?style=social&color=white)](https://github.com/resemble-ai/chatterbox/stargazers)  
    MIT-licensed open-source TTS model from Resemble AI featuring zero-shot voice cloning, emotion exaggeration controls, and Perth perceptual watermarking.
 
-6. **[MiniCPM-o (OpenBMB/MiniCPM-o)](https://github.com/OpenBMB/MiniCPM-o)** [![GitHub stars](https://img.shields.io/github/stars/OpenBMB/MiniCPM-o?style=social&color=white)](https://github.com/OpenBMB/MiniCPM-o/stargazers)  
+6. **[MiniCPM-o (OpenBMB/MiniCPM-o)](https://github.com/OpenBMB/MiniCPM-o)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenBMB/MiniCPM-o?style=social&color=white)](https://github.com/OpenBMB/MiniCPM-o/stargazers)  
    Edge-friendly open-source omni-modal model supporting full-duplex live speech-to-speech conversation, voice cloning, and real-time video streaming on consumer GPUs.
 
-7. **[Faster-Whisper (SYSTRAN/faster-whisper)](https://github.com/SYSTRAN/faster-whisper)** [![GitHub stars](https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=social&color=white)](https://github.com/SYSTRAN/faster-whisper/stargazers)  
+7. **[Faster-Whisper (SYSTRAN/faster-whisper)](https://github.com/SYSTRAN/faster-whisper)** [![GitHub_Stars](https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=social&color=white)](https://github.com/SYSTRAN/faster-whisper/stargazers)  
    Up to 4x faster CTranslate2 reimplementation of OpenAI Whisper serving as the backbone ASR engine for self-hosted real-time voice agents and dictation tools.
 
-8. **[CosyVoice & CosyVoice 2 (FunAudioLLM/CosyVoice)](https://github.com/FunAudioLLM/CosyVoice)** [![GitHub stars](https://img.shields.io/github/stars/FunAudioLLM/CosyVoice?style=social&color=white)](https://github.com/FunAudioLLM/CosyVoice/stargazers)  
+8. **[CosyVoice & CosyVoice 2 (FunAudioLLM/CosyVoice)](https://github.com/FunAudioLLM/CosyVoice)** [![GitHub_Stars](https://img.shields.io/github/stars/FunAudioLLM/CosyVoice?style=social&color=white)](https://github.com/FunAudioLLM/CosyVoice/stargazers)  
    Alibaba's Apache 2.0 open-source multilingual speech synthesis model supporting bi-directional streaming, 3-second zero-shot voice cloning, and emotion control.
 
-9. **[Pipecat (pipecat-ai/pipecat)](https://github.com/pipecat-ai/pipecat)** [![GitHub stars](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=social&color=white)](https://github.com/pipecat-ai/pipecat/stargazers)  
+9. **[Pipecat (pipecat-ai/pipecat)](https://github.com/pipecat-ai/pipecat)** [![GitHub_Stars](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=social&color=white)](https://github.com/pipecat-ai/pipecat/stargazers)  
    Leading open-source Python framework for building real-time voice and multimodal conversational agents over WebRTC and WebSockets, integrating VAD, ASR, LLMs, and streaming TTS.
 
-10. **[Sherpa-ONNX (k2-fsa/sherpa-onnx)](https://github.com/k2-fsa/sherpa-onnx)** [![GitHub stars](https://img.shields.io/github/stars/k2-fsa/sherpa-onnx?style=social&color=white)](https://github.com/k2-fsa/sherpa-onnx/stargazers)  
+10. **[Sherpa-ONNX (k2-fsa/sherpa-onnx)](https://github.com/k2-fsa/sherpa-onnx)** [![GitHub_Stars](https://img.shields.io/github/stars/k2-fsa/sherpa-onnx?style=social&color=white)](https://github.com/k2-fsa/sherpa-onnx/stargazers)  
     Cross-platform C++/Python/Rust/Android/iOS/WebAssembly runtime uniting streaming ASR, VAD, speaker identification, and offline neural TTS in one dependency-free engine.
 
-11. **[F5-TTS (SWivid/F5-TTS)](https://github.com/SWivid/F5-TTS)** [![GitHub stars](https://img.shields.io/github/stars/SWivid/F5-TTS?style=social&color=white)](https://github.com/SWivid/F5-TTS/stargazers)  
+11. **[F5-TTS (SWivid/F5-TTS)](https://github.com/SWivid/F5-TTS)** [![GitHub_Stars](https://img.shields.io/github/stars/SWivid/F5-TTS?style=social&color=white)](https://github.com/SWivid/F5-TTS/stargazers)  
     Non-autoregressive flow-matching speech synthesis system with fast inference, emotion expression, and zero-shot voice cloning capabilities.
 
-12. **[LiveKit Agents (livekit/agents)](https://github.com/livekit/agents)** [![GitHub stars](https://img.shields.io/github/stars/livekit/agents?style=social&color=white)](https://github.com/livekit/agents/stargazers)  
+12. **[LiveKit Agents (livekit/agents)](https://github.com/livekit/agents)** [![GitHub_Stars](https://img.shields.io/github/stars/livekit/agents?style=social&color=white)](https://github.com/livekit/agents/stargazers)  
     Production-grade open-source framework for building programmable real-time voice and video AI agents on LiveKit WebRTC infrastructure with semantic turn detection.
 
-13. **[Open-LLM-VTuber (Open-LLM-VTuber/Open-LLM-VTuber)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)** [![GitHub stars](https://img.shields.io/github/stars/Open-LLM-VTuber/Open-LLM-VTuber?style=social&color=white)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/stargazers)  
+13. **[Open-LLM-VTuber (Open-LLM-VTuber/Open-LLM-VTuber)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)** [![GitHub_Stars](https://img.shields.io/github/stars/Open-LLM-VTuber/Open-LLM-VTuber?style=social&color=white)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/stargazers)  
     Open-source offline-capable real-time voice conversation companion combining local ASR, LLMs, TTS, and Live2D visual avatars with barge-in interruption.
 
-14. **[Sesame CSM-1B (SesameAILabs/csm)](https://github.com/SesameAILabs/csm)** [![GitHub stars](https://img.shields.io/github/stars/SesameAILabs/csm?style=social&color=white)](https://github.com/SesameAILabs/csm/stargazers)  
+14. **[Sesame CSM-1B (SesameAILabs/csm)](https://github.com/SesameAILabs/csm)** [![GitHub_Stars](https://img.shields.io/github/stars/SesameAILabs/csm?style=social&color=white)](https://github.com/SesameAILabs/csm/stargazers)  
     Open-source Conversational Speech Model generating context-aware, natural dialogue prosody conditioned on preceding conversational audio and transcript turns.
 
-15. **[Moshi (kyutai-labs/moshi)](https://github.com/kyutai-labs/moshi)** [![GitHub stars](https://img.shields.io/github/stars/kyutai-labs/moshi?style=social&color=white)](https://github.com/kyutai-labs/moshi/stargazers)  
+15. **[Moshi (kyutai-labs/moshi)](https://github.com/kyutai-labs/moshi)** [![GitHub_Stars](https://img.shields.io/github/stars/kyutai-labs/moshi?style=social&color=white)](https://github.com/kyutai-labs/moshi/stargazers)  
     Pioneering open-source full-duplex speech-to-speech foundation model by Kyutai capable of listening and speaking simultaneously with ~200ms latency, interruptions, and emotional nuance.
 
-16. **[Moonshine (usefulsensors/moonshine)](https://github.com/usefulsensors/moonshine)** [![GitHub stars](https://img.shields.io/github/stars/usefulsensors/moonshine?style=social&color=white)](https://github.com/usefulsensors/moonshine/stargazers)  
+16. **[Moonshine (usefulsensors/moonshine)](https://github.com/usefulsensors/moonshine)** [![GitHub_Stars](https://img.shields.io/github/stars/usefulsensors/moonshine?style=social&color=white)](https://github.com/usefulsensors/moonshine/stargazers)  
     Lightweight open-source ASR model family engineered specifically for fast, accurate, live on-device speech recognition in conversational voice interfaces.
 
-17. **[Piper TTS (rhasspy/piper)](https://github.com/rhasspy/piper)** [![GitHub stars](https://img.shields.io/github/stars/rhasspy/piper?style=social&color=white)](https://github.com/rhasspy/piper/stargazers)  
+17. **[Piper TTS (rhasspy/piper)](https://github.com/rhasspy/piper)** [![GitHub_Stars](https://img.shields.io/github/stars/rhasspy/piper?style=social&color=white)](https://github.com/rhasspy/piper/stargazers)  
     Fast, local neural text to speech system optimized for Raspberry Pi and low-spec hardware running entirely offline.
 
-18. **[WhisperLiveKit (QuentinFuxa/WhisperLiveKit)](https://github.com/QuentinFuxa/WhisperLiveKit)** [![GitHub stars](https://img.shields.io/github/stars/QuentinFuxa/WhisperLiveKit?style=social&color=white)](https://github.com/QuentinFuxa/WhisperLiveKit/stargazers)  
+18. **[WhisperLiveKit (QuentinFuxa/WhisperLiveKit)](https://github.com/QuentinFuxa/WhisperLiveKit)** [![GitHub_Stars](https://img.shields.io/github/stars/QuentinFuxa/WhisperLiveKit?style=social&color=white)](https://github.com/QuentinFuxa/WhisperLiveKit/stargazers)  
     Open-source real-time speech-to-text server and web interface featuring SimulStreaming Whisper, speaker diarization, and ultra-low-latency WebSocket transcription.
 
-19. **[TEN Framework (TEN-framework/ten-framework)](https://github.com/TEN-framework/ten-framework)** [![GitHub stars](https://img.shields.io/github/stars/TEN-framework/ten-framework?style=social&color=white)](https://github.com/TEN-framework/ten-framework/stargazers)  
+19. **[TEN Framework (TEN-framework/ten-framework)](https://github.com/TEN-framework/ten-framework)** [![GitHub_Stars](https://img.shields.io/github/stars/TEN-framework/ten-framework?style=social&color=white)](https://github.com/TEN-framework/ten-framework/stargazers)  
     Open-source real-time multimodal conversational AI agent framework supporting full-duplex audio/video streaming, interruption handling, and modular C++/Go/Python extensions.
 
-20. **[Silero VAD (snakers4/silero-vad)](https://github.com/snakers4/silero-vad)** [![GitHub stars](https://img.shields.io/github/stars/snakers4/silero-vad?style=social&color=white)](https://github.com/snakers4/silero-vad/stargazers)  
+20. **[Silero VAD (snakers4/silero-vad)](https://github.com/snakers4/silero-vad)** [![GitHub_Stars](https://img.shields.io/github/stars/snakers4/silero-vad?style=social&color=white)](https://github.com/snakers4/silero-vad/stargazers)  
     Enterprise-grade, ultra-fast (~1ms per chunk) open-source Voice Activity Detection model powering turn-taking and barge-in interruption across nearly every voice AI stack.
 
-21. **[RealtimeSTT (KoljaB/RealtimeSTT)](https://github.com/KoljaB/RealtimeSTT)** [![GitHub stars](https://img.shields.io/github/stars/KoljaB/RealtimeSTT?style=social&color=white)](https://github.com/KoljaB/RealtimeSTT/stargazers)  
+21. **[RealtimeSTT (KoljaB/RealtimeSTT)](https://github.com/KoljaB/RealtimeSTT)** [![GitHub_Stars](https://img.shields.io/github/stars/KoljaB/RealtimeSTT?style=social&color=white)](https://github.com/KoljaB/RealtimeSTT/stargazers)  
     Robust, real-time, low-latency Speech-to-Text library combining Whisper, Silero VAD, and local audio streaming for responsive voice interfaces.
 
-22. **[Kokoro-82M & Kokoro-FastAPI (hexgrad/kokoro)](https://github.com/hexgrad/kokoro)** [![GitHub stars](https://img.shields.io/github/stars/hexgrad/kokoro?style=social&color=white)](https://github.com/hexgrad/kokoro/stargazers)  
+22. **[Kokoro-82M & Kokoro-FastAPI (hexgrad/kokoro)](https://github.com/hexgrad/kokoro)** [![GitHub_Stars](https://img.shields.io/github/stars/hexgrad/kokoro?style=social&color=white)](https://github.com/hexgrad/kokoro/stargazers)  
     Apache 2.0 licensed, 82M-parameter open-weight TTS model delivering natural speech faster than real time on CPU/GPU, ideal for low-latency conversational pipelines.
 
-23. **[Orpheus TTS (canopyai/Orpheus-TTS)](https://github.com/canopyai/Orpheus-TTS)** [![GitHub stars](https://img.shields.io/github/stars/canopyai/Orpheus-TTS?style=social&color=white)](https://github.com/canopyai/Orpheus-TTS/stargazers)  
+23. **[Orpheus TTS (canopyai/Orpheus-TTS)](https://github.com/canopyai/Orpheus-TTS)** [![GitHub_Stars](https://img.shields.io/github/stars/canopyai/Orpheus-TTS?style=social&color=white)](https://github.com/canopyai/Orpheus-TTS/stargazers)  
     Apache 2.0 open-source Llama-based speech-LLM producing expressive conversational speech with inline emotion tags (`<laugh>`, `<sigh>`) and ~100ms streaming latency.
 
-24. **[Ultravox (fixie-ai/ultravox)](https://github.com/fixie-ai/ultravox)** [![GitHub stars](https://img.shields.io/github/stars/fixie-ai/ultravox?style=social&color=white)](https://github.com/fixie-ai/ultravox/stargazers)  
+24. **[Ultravox (fixie-ai/ultravox)](https://github.com/fixie-ai/ultravox)** [![GitHub_Stars](https://img.shields.io/github/stars/fixie-ai/ultravox?style=social&color=white)](https://github.com/fixie-ai/ultravox/stargazers)  
     Fast multimodal open-weight speech-LLM that ingests raw audio directly into the LLM context window without a separate ASR bottleneck for ultra-low-latency voice agents.
 
-25. **[WhisperLive (collabora/WhisperLive)](https://github.com/collabora/WhisperLive)** [![GitHub stars](https://img.shields.io/github/stars/collabora/WhisperLive?style=social&color=white)](https://github.com/collabora/WhisperLive/stargazers)  
+25. **[WhisperLive (collabora/WhisperLive)](https://github.com/collabora/WhisperLive)** [![GitHub_Stars](https://img.shields.io/github/stars/collabora/WhisperLive?style=social&color=white)](https://github.com/collabora/WhisperLive/stargazers)  
     Real-time near-instant speech-to-text streaming server powered by Whisper and WebSockets for live audio captioning.
 
-26. **[Qwen2.5-Omni (QwenLM/Qwen2.5-Omni)](https://github.com/QwenLM/Qwen2.5-Omni)** [![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Omni?style=social&color=white)](https://github.com/QwenLM/Qwen2.5-Omni/stargazers)  
+26. **[Qwen2.5-Omni (QwenLM/Qwen2.5-Omni)](https://github.com/QwenLM/Qwen2.5-Omni)** [![GitHub_Stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5-Omni?style=social&color=white)](https://github.com/QwenLM/Qwen2.5-Omni/stargazers)  
     Apache 2.0 open-weight end-to-end multimodal foundation model perceiving text, audio, image, and video while streaming natural speech responses in real time.
 
-27. **[RealtimeTTS (KoljaB/RealtimeTTS)](https://github.com/KoljaB/RealtimeTTS)** [![GitHub stars](https://img.shields.io/github/stars/KoljaB/RealtimeTTS?style=social&color=white)](https://github.com/KoljaB/RealtimeTTS/stargazers)  
+27. **[RealtimeTTS (KoljaB/RealtimeTTS)](https://github.com/KoljaB/RealtimeTTS)** [![GitHub_Stars](https://img.shields.io/github/stars/KoljaB/RealtimeTTS?style=social&color=white)](https://github.com/KoljaB/RealtimeTTS/stargazers)  
     Streaming Text-to-Speech library translating text streams into immediate continuous audio output with Coqui, ElevenLabs, Azure, and Kokoro.
 
-28. **[Vocode (vocodedev/vocode-core)](https://github.com/vocodedev/vocode-core)** [![GitHub stars](https://img.shields.io/github/stars/vocodedev/vocode-core?style=social&color=white)](https://github.com/vocodedev/vocode-core/stargazers)  
+28. **[Vocode (vocodedev/vocode-core)](https://github.com/vocodedev/vocode-core)** [![GitHub_Stars](https://img.shields.io/github/stars/vocodedev/vocode-core?style=social&color=white)](https://github.com/vocodedev/vocode-core/stargazers)  
     Open-source Python library for building voice-based LLM agents across phone calls (Twilio/Vonage), Zoom meetings, and browser WebSockets.
 
-29. **[GLM-4-Voice (THUDM/GLM-4-Voice)](https://github.com/THUDM/GLM-4-Voice)** [![GitHub stars](https://img.shields.io/github/stars/THUDM/GLM-4-Voice?style=social&color=white)](https://github.com/THUDM/GLM-4-Voice/stargazers)  
+29. **[GLM-4-Voice (THUDM/GLM-4-Voice)](https://github.com/THUDM/GLM-4-Voice)** [![GitHub_Stars](https://img.shields.io/github/stars/THUDM/GLM-4-Voice?style=social&color=white)](https://github.com/THUDM/GLM-4-Voice/stargazers)  
     Open-source end-to-end voice conversation model capable of directly understanding and generating expressive speech with adjustable emotion, intonation, and speaking rate.
 
-30. **[Wyoming Protocol & Rhasspy Assist (rhasspy/wyoming)](https://github.com/rhasspy/wyoming)** [![GitHub stars](https://img.shields.io/github/stars/rhasspy/wyoming?style=social&color=white)](https://github.com/rhasspy/wyoming/stargazers)  
+30. **[Wyoming Protocol & Rhasspy Assist (rhasspy/wyoming)](https://github.com/rhasspy/wyoming)** [![GitHub_Stars](https://img.shields.io/github/stars/rhasspy/wyoming?style=social&color=white)](https://github.com/rhasspy/wyoming/stargazers)  
     Open-source peer-to-peer voice assistant protocol connecting local wake-word detection (`openWakeWord`), Faster-Whisper ASR, and Piper TTS inside Home Assistant.
 
-31. **[Doubao Say (quanru/doubao-say)](https://github.com/quanru/doubao-say)** [![GitHub stars](https://img.shields.io/github/stars/quanru/doubao-say?style=social&color=white)](https://github.com/quanru/doubao-say/stargazers)  
+31. **[Doubao Say (quanru/doubao-say)](https://github.com/quanru/doubao-say)** [![GitHub_Stars](https://img.shields.io/github/stars/quanru/doubao-say?style=social&color=white)](https://github.com/quanru/doubao-say/stargazers)  
     MIT-licensed open-source voice input and AI dictation app for Linux (Wayland/Omarchy) and macOS featuring live captions, global shortcuts, Deepgram Nova-3 / Volcengine ASR, and optional LLM transcript polishing.
 
 ---
